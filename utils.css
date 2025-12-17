@@ -20,7 +20,8 @@
 html, body {
     height: 100%;
     overflow-x: hidden;
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
 a {
     text-decoration: none;
